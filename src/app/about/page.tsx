@@ -23,7 +23,7 @@ export default function Home() {
             -Yes, I promise.<br />
             -Thank you. Goodbye.<br />
             -Come back again soon. Goodbye.<br /><br />
-            <Link href="/">Art</Link>
+            <Link href="/" scroll={false}>Art</Link>
         </div>
 
     )
