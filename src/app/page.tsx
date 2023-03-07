@@ -11,28 +11,28 @@ import ribbon4 from '../../public/KenshinKyu_annihilation_of_the_universe_celebr
 export default function Home() {
   return (
     <div className="info">
-      <h2>Ooooh he made some art using ai</h2>
+      <h2 className="mb-10">Ooooh he made some art using ai</h2>
       <div className="infopanel">
         <div className="info-item">
-          <Image src={ribbon1} alt="Hi" />
+          <Image src={ribbon1} alt="Hi" className="m-auto" width={250} height={250} quality={80} />
           <p>Hellscape with a hint of hope</p>
         </div>
         <div className="info-item">
-          <Image src={ribbon2} alt="Hi" />
+          <Image src={ribbon2} alt="Hi" className="m-auto" width={250} height={250} quality={80} />
           <p>Morgan takes down the support site again</p>
         </div>
         <div className="info-item">
-          <Image src={ribbon3} alt="Hi" />
+          <Image src={ribbon3} alt="Hi" className="m-auto" width={250} height={250} quality={80} />
           <p>Parrot cat bagel dancing smoking green</p>
         </div>
         <div className="info-item">
-          <Image src={ribbon4} alt="Hi" />
+          <Image src={ribbon4} alt="Hi" className="m-auto" width={250} height={250} quality={80} />
           <p>Annihilation of the universe celebrated by billions</p>
         </div>
       </div>
       <p className="italic confession">* I can&apos;t any take credit for this at all, the great guys at <a href="https://www.midjourney.com/home/">Midjouney</a> did all the work here, plus all of the <strong>real</strong> artists who produced the source work the ai smudged together.<br /><br />
         ** Plus, my wife created &apos;Parrot cat bagel dancing smoking green&apos; so there&apos;s that.</p>
-      <Link href="/about">Dashboard</Link>
+      <p className="mt-10"><Link href="/about">More quotes...</Link></p>
     </div>
   )
 }

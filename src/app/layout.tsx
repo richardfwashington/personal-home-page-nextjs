@@ -35,7 +35,7 @@ export default function RootLayout({
             <button>Now includes flexbox!</button>
           </div>
           <div className="right">
-            <Image src={profilePic} alt="This is actually Big Brain Nick, but you won&apos;t know that!" />
+            <Image priority={true} src={profilePic} alt="This is actually Big Brain Nick, but you won&apos;t know that!" />
           </div>
         </div>
       </div>
