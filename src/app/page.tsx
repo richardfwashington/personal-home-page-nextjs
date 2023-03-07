@@ -32,7 +32,7 @@ export default function Home() {
       </div>
       <p className="italic confession">* I can&apos;t any take credit for this at all, the great guys at <a href="https://www.midjourney.com/home/">Midjouney</a> did all the work here, plus all of the <strong>real</strong> artists who produced the source work the ai smudged together.<br /><br />
         ** Plus, my wife created &apos;Parrot cat bagel dancing smoking green&apos; so there&apos;s that.</p>
-      <p className="mt-10"><Link href="/about">More quotes...</Link></p>
+      <p className="mt-10"><Link href="about">More quotes...</Link></p>
     </div>
   )
 }
