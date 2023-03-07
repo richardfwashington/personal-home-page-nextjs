@@ -1,91 +1,38 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from './page.module.css'
 
-const inter = Inter({ subsets: ['latin'] })
+import Image from 'next/image'
+import Link from 'next/link'
+
+import ribbon1 from '../../public/KenshinKyu_hellscape_with_a_hint_of_hope_on_the_horizon_ef7f680a-0291-493a-9cd0-0d0cea85ad3c.png'
+import ribbon2 from '../../public/KenshinKyu_morgan_taking_down_the_support_site_b37e9428-993a-4e94-9489-8b041e7b3d44.png'
+import ribbon3 from '../../public/KenshinKyu_parrot_cat_bagel_dancing_smoking_green_5d534404-4d6c-467d-a429-628c480b7b0a.png'
+import ribbon4 from '../../public/KenshinKyu_annihilation_of_the_universe_celebrated_by_crowds_of_545577e3-f6f2-4e66-b679-866dbb3ebf52.png'
+
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div className="info">
+      <h2>Ooooh he made some art using ai</h2>
+      <div className="infopanel">
+        <div className="info-item">
+          <Image src={ribbon1} alt="Hi" />
+          <p>Hellscape with a hint of hope</p>
+        </div>
+        <div className="info-item">
+          <Image src={ribbon2} alt="Hi" />
+          <p>Morgan takes down the support site again</p>
+        </div>
+        <div className="info-item">
+          <Image src={ribbon3} alt="Hi" />
+          <p>Parrot cat bagel dancing smoking green</p>
+        </div>
+        <div className="info-item">
+          <Image src={ribbon4} alt="Hi" />
+          <p>Annihilation of the universe celebrated by billions</p>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      <p className="italic confession">* I can&apos;t any take credit for this at all, the great guys at <a href="https://www.midjourney.com/home/">Midjouney</a> did all the work here, plus all of the <strong>real</strong> artists who produced the source work the ai smudged together.<br /><br />
+        ** Plus, my wife created &apos;Parrot cat bagel dancing smoking green&apos; so there&apos;s that.</p>
+      <Link href="/about">Dashboard</Link>
+    </div>
   )
 }
