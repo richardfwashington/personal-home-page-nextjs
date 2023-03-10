@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import React, { Component } from 'react'
+import GoHome from '../../goHome'
 
 export default function Home() {
     return (
@@ -9,7 +11,6 @@ export default function Home() {
                 <h2 className='pt-5'>PHP is good now, actually</h2>
                 <p className='pt-5'>
                     I’ve been using PHP for well over a decade and have heard many criticisms of it.
-
                     The thing is, virtually all of the comments, sneers, claims, and negative observations have been, well, fair enough.</p>
 
                 <ul className='pt-5 list-disc ml-5'>
@@ -57,8 +58,12 @@ export default function Home() {
                 <p className='pt-5'>Will it ever be a ‘perfect‘ language for web development?  Possibly not, I’m not sure such a thing can even be defined.  It is the direction of travel that matters most.  Some things we may have to just live with forever, I have to admit I still get caught out from time to time</p>
 
                 <p className='py-5'>For the first time ever, I’m proud to be a PHP developer.  We should all be proud to be PHP developers.  It’s no longer the toy language it once was.  We are blessed with a great community and a bright future.</p>
+
+                <GoHome name="Go home" />
             </article>
-            <div></div>
+
+            <div>
+            </div>
         </div>
     )
 }
