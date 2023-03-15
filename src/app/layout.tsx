@@ -22,8 +22,8 @@ export default function RootLayout({
           <div className="right">
             <ul>
               <li><Link href="/articles/php-is-good-now-actually">PHP Is Good</Link></li>
-              <li>another link</li>
-              <li>one more</li>
+              <li><Link href="/articles/1">Dynamic article</Link></li>
+              <li><Link href="/articles/2">Another dynamic article</Link></li>
             </ul>
           </div>
         </div>

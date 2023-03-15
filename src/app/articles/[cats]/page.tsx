@@ -10,9 +10,15 @@ export default async function Office({ params }: { params: { cats: number } }) {
 
     return (
         <>
-            <h1>Welcome to TaxAssist</h1>
-            <p>This is for the {title}</p>
-            <p>{body}</p>
+            <div className='grid grid-cols-4'>
+                <div></div>
+                <article className='col-span-2'>
+
+                    <h2 className='pt-5'>
+                        This is for the {title}</h2>
+                    <p className='pb-5'>{body}</p>
+                </article>
+            </div>
         </>);
 }
 
