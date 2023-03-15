@@ -33,7 +33,7 @@ export default function RootLayout({
             <p className="subtext">
               This is the landing page from the Odin project, used to practice the fundamentals of front end web development.
             </p>
-            <button>Now includes flexbox!</button>
+            <button className='mt-5'>Now includes flexbox!</button>
           </div>
           <div className="right">
             <Image priority={true} src={profilePic} alt="This is actually Big Brain Nick, but you won&apos;t know that!" height={250} width={250} />
