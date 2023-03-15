@@ -2,9 +2,9 @@ import GoHome from '../../goHome'
 
 export default function Home() {
     return (
-        <div className='grid grid-cols-4'>
+        <div className='grid grid-cols-10 sm:grid-cols-4'>
             <div></div>
-            <article className='col-span-2'>
+            <article className='col-span-8 sm:col-span-2'>
 
                 <h2 className='pt-5'>PHP is good now, actually</h2>
                 <p className='pt-5'>
