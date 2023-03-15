@@ -1,5 +1,3 @@
-import Link from 'next/link'
-import React, { Component } from 'react'
 import GoHome from '../../goHome'
 
 export default function Home() {

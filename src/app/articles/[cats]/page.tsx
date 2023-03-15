@@ -1,5 +1,4 @@
-import React from 'react'
-
+import GoHome from '../../goHome'
 
 export default async function Office({ params }: { params: { cats: number } }) {
 
@@ -17,6 +16,8 @@ export default async function Office({ params }: { params: { cats: number } }) {
                     <h2 className='pt-5'>
                         This is for the {title}</h2>
                     <p className='pb-5'>{body}</p>
+
+                    <GoHome name="Go home" />
                 </article>
             </div>
         </>);
