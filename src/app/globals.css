@@ -89,16 +89,27 @@ button {
 }
 
 .top a:link {
-  color: #73f9f9;
+  color: #f9faff;
   text-decoration: none;
+  padding: 15px;
+  background-color: #D93E15;
+  margin-right: 10px;
+  border-radius: 10px;
 }
 
 .top a:hover {
-  text-decoration: underline;
+  padding: 15px;
+  background-color: #D93E15;
+  margin-right: 10px;
+  border-radius: 10px;
 }
 
 .top a:visited {
-  color: #73f9f9;
+  color: #f9faff;
+  padding: 15px;
+  background-color: #D93E15;
+  margin-right: 10px;
+  border-radius: 10px;
 }
 
 .left h3 {
@@ -114,11 +125,6 @@ button {
   display: inline;
   list-style-type: none;
   color: #e5e7eb;
-}
-
-.top ul li:not(:last-child):after {
-  content: '  |  ';
-  margin: 10px;
 }
 
 .top ul li:hover {
