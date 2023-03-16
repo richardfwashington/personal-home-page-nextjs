@@ -14,19 +14,19 @@ export default function Home() {
       <h2 className="mb-10">Ooooh he made some art using ai</h2>
       <div className="infopanel">
         <div className="info-item">
-          <Image src={ribbon1} alt="Hi" className="m-auto" width={250} height={250} quality={80} />
+          <Image src={ribbon1} alt="Hi" className="m-auto" width={200} height={200} quality={80} />
           <p>Hellscape with a hint of hope</p>
         </div>
         <div className="info-item">
-          <Image src={ribbon2} alt="Hi" className="m-auto" width={250} height={250} quality={80} />
+          <Image src={ribbon2} alt="Hi" className="m-auto" width={200} height={200} quality={80} />
           <p>Morgan takes down the support site again</p>
         </div>
         <div className="info-item">
-          <Image src={ribbon3} alt="Hi" className="m-auto" width={250} height={250} quality={80} />
+          <Image src={ribbon3} alt="Hi" className="m-auto" width={200} height={200} quality={80} />
           <p>Parrot cat bagel dancing smoking green</p>
         </div>
         <div className="info-item">
-          <Image src={ribbon4} alt="Hi" className="m-auto" width={250} height={250} quality={80} />
+          <Image src={ribbon4} alt="Hi" className="m-auto" width={200} height={200} quality={80} />
           <p>Annihilation of the universe celebrated by billions</p>
         </div>
       </div>
