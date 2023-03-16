@@ -20,7 +20,7 @@ export default function RootLayout({
       <body><div className="header">
         <div className="top">
           <div className="left"><h3>Logo not logo</h3></div>
-          <div className="right">
+          <div className="right ">
             <ul>
               <li><Link href="/articles/php-is-good-now-actually">PHP Is Good</Link></li>
               <li><Link href="/articles/1">Dynamic article</Link></li>

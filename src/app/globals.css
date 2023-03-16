@@ -89,25 +89,25 @@ button {
 }
 
 .top a:link {
-  color: #f9faff;
+  color: #1f2937;
   text-decoration: none;
   padding: 15px;
-  background-color: #D93E15;
+  background-color: #b8f2ff;
   margin-right: 10px;
   border-radius: 10px;
 }
 
 .top a:hover {
   padding: 15px;
-  background-color: #D93E15;
+  background-color: #b8f2ff;
   margin-right: 10px;
   border-radius: 10px;
 }
 
 .top a:visited {
-  color: #f9faff;
+  color: #1f2937;
   padding: 15px;
-  background-color: #D93E15;
+  background-color: #b8f2ff;
   margin-right: 10px;
   border-radius: 10px;
 }
