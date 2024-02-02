@@ -46,7 +46,7 @@ export default function RootLayout({
           <div className="callout">
             <div className="callout-text">
               <h3>Call to no action!</h3>
-              <p>There is nothing to sign up to, so don&apos;t bother trying.</p>
+              <p>There is nothing to sign up to, so don&apos;t bother trying. Gump.</p>
             </div>
             <div className="callout-button">
               <a href="https://www.bbc.co.uk"><button>Go away</button></a>
