@@ -28,7 +28,7 @@ export default function RootLayout({
           <div className="left">
             <h1>Big brain Richard, that&apos;s what <span className="italic">they</span> say</h1>
             <p className="subtext">
-              This is the landing page from the Odin project, used to practice the fundamentals of front end web development.
+              Welcome to my personal site.  There isn't much here. Enjoy!
             </p>
             <button className='mt-5'>Now includes flexbox!</button>
           </div>
