@@ -28,7 +28,7 @@ export default function RootLayout({
           <div className="left">
             <h1>Big brain Richard, that&apos;s what <span className="italic">they</span> say</h1>
             <p className="subtext">
-              Welcome to my personal site.  There isn't much here. Enjoy!
+              Welcome to my personal site.  There isn&#39; t much here. Enjoy!
             </p>
             <button className='mt-5'>Now includes flexbox!</button>
           </div>
