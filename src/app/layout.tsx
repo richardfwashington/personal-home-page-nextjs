@@ -1,7 +1,6 @@
 import './globals.css'
 import Image from 'next/image'
 import profilePic from '../../public/KenshinKyu_big_brain_nick_e39a2fe1-19b3-4c27-b06d-9581284e54bd.png'
-import Link from 'next/link'
 
 export const metadata = {
   title: 'Something weird',
