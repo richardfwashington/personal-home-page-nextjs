@@ -79,6 +79,7 @@ export default function RootLayout({
             <p>Copyright © Richard Washington {year}</p>
           </div>
         </div>
+        <SpeedInsights />
       </body>
     </html>
   );
